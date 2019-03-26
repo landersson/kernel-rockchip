@@ -634,6 +634,12 @@ struct v4l2_pix_format {
 #define V4L2_PIX_FMT_Y8I      v4l2_fourcc('Y', '8', 'I', ' ') /* Greyscale 8-bit L/R interleaved */
 #define V4L2_PIX_FMT_Y12I     v4l2_fourcc('Y', '1', '2', 'I') /* Greyscale 12-bit L/R interleaved */
 #define V4L2_PIX_FMT_Z16      v4l2_fourcc('Z', '1', '6', ' ') /* Depth data 16-bit */
+#define V4L2_PIX_FMT_Y16      v4l2_fourcc('Y', '1', '6', ' ') /* Greyscale 16-bit */
+#define V4L2_PIX_FMT_RW16     v4l2_fourcc('R', 'W', '1', '6') /* Raw data 16-bit */
+#define V4L2_PIX_FMT_INZI     v4l2_fourcc('I', 'N', 'Z', 'I') /* 24 Depth/IR 16:8 */
+#define V4L2_PIX_FMT_INVR     v4l2_fourcc('I', 'N', 'V', 'R') /* 16 Depth */
+#define V4L2_PIX_FMT_INRI     v4l2_fourcc('I', 'N', 'R', 'I') /* 24 Depth/IR 16:8 */
+#define V4L2_PIX_FMT_RELI     v4l2_fourcc('R', 'E', 'L', 'I') /* 8 IR alternating on off illumination */
 
 /* SDR formats - used only for Software Defined Radio devices */
 #define V4L2_SDR_FMT_CU8          v4l2_fourcc('C', 'U', '0', '8') /* IQ u8 */

@@ -1257,6 +1257,11 @@ static void v4l_fill_fmtdesc(struct v4l2_fmtdesc *fmt)
 	case V4L2_SDR_FMT_CS8:		descr = "Complex S8"; break;
 	case V4L2_SDR_FMT_CS14LE:	descr = "Complex S14LE"; break;
 	case V4L2_SDR_FMT_RU12LE:	descr = "Real U12LE"; break;
+	case V4L2_PIX_FMT_Y8I:		descr = "8-bit Greyscale L/R interleaved"; break;
+	case V4L2_PIX_FMT_Y12I:		descr = "12-bit Grey L/R interleaved"; break;
+	case V4L2_PIX_FMT_Z16:		descr = "16-bit Depth data"; break;
+	case V4L2_PIX_FMT_RW16:		descr = "16-bit Raw data"; break;
+	case V4L2_PIX_FMT_INZI:		descr = "32-bit IR:Depth 10:16"; break;
 	case V4L2_META_FMT_RK_ISP1_PARAMS:	descr = "Rockchip ISP1 3A params"; break;
 	case V4L2_META_FMT_RK_ISP1_STAT_3A:	descr = "Rockchip ISP1 3A statistics"; break;
 	case V4L2_META_FMT_UVC:		descr = "UVC payload header metadata"; break;
